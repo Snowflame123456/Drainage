@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+  <rect width="1000" height="620" fill="#f7fafc"/>
+  <text x="20" y="35" font-family="Arial" font-size="24" fill="#1a365d">Figure 1: Concept Site Layout + 4 Existing Pit Lines (Ford Campbellfield Carpark)</text>
+
+  <rect x="70" y="90" width="860" height="450" rx="10" fill="#edf2f7" stroke="#4a5568" stroke-width="2"/>
+  <text x="80" y="115" font-family="Arial" font-size="16" fill="#2d3748">Industrial Facility Boundary</text>
+
+  <rect x="180" y="170" width="560" height="260" fill="#cbd5e0" stroke="#4a5568" stroke-width="2"/>
+  <text x="200" y="205" font-family="Arial" font-size="18" fill="#1a202c">Proposed New Carpark</text>
+
+  <!-- Line A -->
+  <polyline points="120,145 280,145 430,145 580,145 760,145" fill="none" stroke="#2b6cb0" stroke-width="4"/>
+  <text x="770" y="150" font-family="Arial" font-size="14" fill="#2b6cb0">LPOD-N</text>
+  <circle cx="120" cy="145" r="7" fill="#2b6cb0"/><circle cx="280" cy="145" r="7" fill="#2b6cb0"/>
+  <circle cx="430" cy="145" r="7" fill="#2b6cb0"/><circle cx="580" cy="145" r="7" fill="#2b6cb0"/>
+  <circle cx="760" cy="145" r="7" fill="#2b6cb0"/>
+  <text x="90" y="132" font-family="Arial" font-size="13" fill="#2b6cb0">Line A: A1-A4</text>
+
+  <!-- Line B -->
+  <polyline points="140,250 260,250 390,250 530,250 690,250 810,250" fill="none" stroke="#2f855a" stroke-width="4"/>
+  <text x="820" y="255" font-family="Arial" font-size="14" fill="#2f855a">LPOD-C</text>
+  <circle cx="140" cy="250" r="7" fill="#2f855a"/><circle cx="260" cy="250" r="7" fill="#2f855a"/>
+  <circle cx="390" cy="250" r="7" fill="#2f855a"/><circle cx="530" cy="250" r="7" fill="#2f855a"/>
+  <circle cx="690" cy="250" r="7" fill="#2f855a"/><circle cx="810" cy="250" r="7" fill="#2f855a"/>
+  <text x="90" y="236" font-family="Arial" font-size="13" fill="#2f855a">Line B: B1-B5</text>
+
+  <!-- Line C -->
+  <polyline points="150,335 300,335 470,335 640,335 810,335" fill="none" stroke="#b7791f" stroke-width="4"/>
+  <text x="820" y="340" font-family="Arial" font-size="14" fill="#b7791f">LPOD-C</text>
+  <circle cx="150" cy="335" r="7" fill="#b7791f"/><circle cx="300" cy="335" r="7" fill="#b7791f"/>
+  <circle cx="470" cy="335" r="7" fill="#b7791f"/><circle cx="640" cy="335" r="7" fill="#b7791f"/>
+  <circle cx="810" cy="335" r="7" fill="#b7791f"/>
+  <text x="90" y="322" font-family="Arial" font-size="13" fill="#b7791f">Line C: C1-C4</text>
+
+  <!-- Line D -->
+  <polyline points="130,445 270,445 430,445 590,445 740,445 860,445" fill="none" stroke="#9f1239" stroke-width="4"/>
+  <text x="870" y="450" font-family="Arial" font-size="14" fill="#9f1239">LPOD-S</text>
+  <circle cx="130" cy="445" r="7" fill="#9f1239"/><circle cx="270" cy="445" r="7" fill="#9f1239"/>
+  <circle cx="430" cy="445" r="7" fill="#9f1239"/><circle cx="590" cy="445" r="7" fill="#9f1239"/>
+  <circle cx="740" cy="445" r="7" fill="#9f1239"/><circle cx="860" cy="445" r="7" fill="#9f1239"/>
+  <text x="90" y="432" font-family="Arial" font-size="13" fill="#9f1239">Line D: D1-D5</text>
+
+  <!-- Legend -->
+  <rect x="730" y="495" width="190" height="95" fill="#ffffff" stroke="#4a5568"/>
+  <text x="742" y="518" font-family="Arial" font-size="14" fill="#1a202c">Legend</text>
+  <text x="742" y="538" font-family="Arial" font-size="12" fill="#1a202c">Colored lines = existing pit lines</text>
+  <text x="742" y="556" font-family="Arial" font-size="12" fill="#1a202c">Dots = pits / junctions</text>
+  <text x="742" y="574" font-family="Arial" font-size="12" fill="#1a202c">LPOD = legal discharge point</text>
+</svg>
