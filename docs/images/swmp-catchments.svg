@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+  <rect width="1000" height="620" fill="#f8fafc"/>
+  <text x="20" y="35" font-family="Arial" font-size="24" fill="#1a365d">Figure 2: Concept Catchments and Flow Routing</text>
+
+  <rect x="80" y="85" width="840" height="470" rx="10" fill="#edf2f7" stroke="#4a5568" stroke-width="2"/>
+
+  <!-- Catchments -->
+  <polygon points="130,130 430,130 430,250 150,250" fill="#90cdf4" fill-opacity="0.7" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="185" y="195" font-family="Arial" font-size="20" fill="#1a365d">C1 (0.22 ha)</text>
+
+  <polygon points="430,130 820,130 820,260 430,260" fill="#9ae6b4" fill-opacity="0.7" stroke="#2f855a" stroke-width="2"/>
+  <text x="560" y="200" font-family="Arial" font-size="20" fill="#22543d">C2 (0.28 ha)</text>
+
+  <polygon points="430,260 820,260 820,420 430,420" fill="#fbd38d" fill-opacity="0.75" stroke="#b7791f" stroke-width="2"/>
+  <text x="560" y="345" font-family="Arial" font-size="20" fill="#744210">C3 (0.31 ha)</text>
+
+  <polygon points="130,260 430,260 430,470 130,470" fill="#feb2b2" fill-opacity="0.75" stroke="#9f1239" stroke-width="2"/>
+  <text x="185" y="365" font-family="Arial" font-size="20" fill="#742a2a">C4 (0.24 ha)</text>
+
+  <polygon points="820,130 900,170 900,470 820,420" fill="#d6bcfa" fill-opacity="0.75" stroke="#6b46c1" stroke-width="2"/>
+  <text x="834" y="315" font-family="Arial" font-size="18" fill="#44337a" transform="rotate(90 834,315)">C5 (0.15 ha)</text>
+
+  <!-- Routing arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2d3748"/>
+    </marker>
+  </defs>
+  <line x1="280" y1="250" x2="280" y2="115" stroke="#2d3748" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="620" y1="260" x2="620" y2="115" stroke="#2d3748" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="620" y1="420" x2="620" y2="520" stroke="#2d3748" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="280" y1="470" x2="280" y2="520" stroke="#2d3748" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="860" y1="300" x2="930" y2="300" stroke="#2d3748" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <text x="230" y="105" font-family="Arial" font-size="12" fill="#2d3748">to Line A</text>
+  <text x="570" y="105" font-family="Arial" font-size="12" fill="#2d3748">to Line B</text>
+  <text x="570" y="538" font-family="Arial" font-size="12" fill="#2d3748">to Line C / OSD</text>
+  <text x="230" y="538" font-family="Arial" font-size="12" fill="#2d3748">to Line D</text>
+  <text x="932" y="305" font-family="Arial" font-size="12" fill="#2d3748">overflow</text>
+
+  <rect x="80" y="565" width="840" height="35" fill="#ffffff" stroke="#4a5568"/>
+  <text x="92" y="588" font-family="Arial" font-size="14" fill="#1a202c">Concept only: Catchment boundaries and areas are indicative pending detailed survey and hydraulic modelling.</text>
+</svg>
